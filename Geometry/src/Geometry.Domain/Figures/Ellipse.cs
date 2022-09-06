@@ -19,7 +19,7 @@ public class Ellipse : Figure
         if (semiAxisLength < 0)
         {
             throw new ArgumentException(
-                $"The length of the ellipse semi-axid cannot be negative. Actual is {semiAxisLength}");
+                $"The length of the ellipse semi-axis cannot be negative. Actual is {semiAxisLength}");
         }
 
         return semiAxisLength;
